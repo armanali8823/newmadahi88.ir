@@ -25,10 +25,7 @@
       color: #444;
     }
 
-    audio {
-      width: 100%;
-      margin-top: 10px;
-    }
+    
 
     hr {
       border: 0;
