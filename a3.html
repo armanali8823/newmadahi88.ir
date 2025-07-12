@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>مداحی جدید</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     * {
       margin: 0;
@@ -32,23 +31,22 @@
       z-index: 1;
       height: 100%;
       display: flex;
-      justify-content: center;
-      align-items: flex-start; /* برای قرار دادن بالا */
-      padding-top: 40px; /* فاصله از بالا */
-      text-align: center;
-      padding-left: 30px;
-      padding-right: 30px;
-      color: white;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 40px;
+      gap: 20px;
     }
 
     input[type="button"] {
       background-color: rgba(255, 0, 0, 0.8);
       color: white;
       border: none;
-      padding: 20px 40px;
+      padding: 20px 0;
+      width: 250px; /* اندازه یکسان برای هر دکمه */
       border-radius: 12px;
       cursor: pointer;
-      font-size: 20px;
+      font-size: 18px;
       transition: background-color 0.3s ease;
     }
 
@@ -62,6 +60,7 @@
   <div class="bg"></div>
   <div class="content"> 
     <a href="a32.html"><input type="button" value="مداحی‌های فارسی"></a>
+    <a href="a33.html"><input type="button" value="مداحی ترکی"></a>
   </div>
 </body>
 </html>
